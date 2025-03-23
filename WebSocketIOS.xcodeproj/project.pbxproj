@@ -14,19 +14,11 @@
 			remoteGlobalIDString = C02FBB152D906A75002600E9;
 			remoteInfo = WebSocketIOS;
 		};
-		C02FBB312D906A78002600E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C02FBB0E2D906A75002600E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C02FBB152D906A75002600E9;
-			remoteInfo = WebSocketIOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C02FBB162D906A75002600E9 /* WebSocketIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocketIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02FBB262D906A78002600E9 /* WebSocketIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C02FBB302D906A78002600E9 /* WebSocketIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		C02FBB292D906A78002600E9 /* WebSocketIOSTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WebSocketIOSTests;
-			sourceTree = "<group>";
-		};
-		C02FBB332D906A78002600E9 /* WebSocketIOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebSocketIOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C02FBB2D2D906A78002600E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				C02FBB182D906A75002600E9 /* WebSocketIOS */,
 				C02FBB292D906A78002600E9 /* WebSocketIOSTests */,
-				C02FBB332D906A78002600E9 /* WebSocketIOSUITests */,
 				C02FBB172D906A75002600E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				C02FBB162D906A75002600E9 /* WebSocketIOS.app */,
 				C02FBB262D906A78002600E9 /* WebSocketIOSTests.xctest */,
-				C02FBB302D906A78002600E9 /* WebSocketIOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = C02FBB262D906A78002600E9 /* WebSocketIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C02FBB2F2D906A78002600E9 /* WebSocketIOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C02FBB402D906A78002600E9 /* Build configuration list for PBXNativeTarget "WebSocketIOSUITests" */;
-			buildPhases = (
-				C02FBB2C2D906A78002600E9 /* Sources */,
-				C02FBB2D2D906A78002600E9 /* Frameworks */,
-				C02FBB2E2D906A78002600E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C02FBB322D906A78002600E9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C02FBB332D906A78002600E9 /* WebSocketIOSUITests */,
-			);
-			name = WebSocketIOSUITests;
-			packageProductDependencies = (
-			);
-			productName = WebSocketIOSUITests;
-			productReference = C02FBB302D906A78002600E9 /* WebSocketIOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					C02FBB252D906A78002600E9 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = C02FBB152D906A75002600E9;
-					};
-					C02FBB2F2D906A78002600E9 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = C02FBB152D906A75002600E9;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				C02FBB152D906A75002600E9 /* WebSocketIOS */,
 				C02FBB252D906A78002600E9 /* WebSocketIOSTests */,
-				C02FBB2F2D906A78002600E9 /* WebSocketIOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C02FBB242D906A78002600E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C02FBB2E2D906A78002600E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C02FBB2C2D906A78002600E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = C02FBB152D906A75002600E9 /* WebSocketIOS */;
 			targetProxy = C02FBB272D906A78002600E9 /* PBXContainerItemProxy */;
-		};
-		C02FBB322D906A78002600E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C02FBB152D906A75002600E9 /* WebSocketIOS */;
-			targetProxy = C02FBB312D906A78002600E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,38 +411,6 @@
 			};
 			name = Release;
 		};
-		C02FBB412D906A78002600E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WebSocketIOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WebSocketIOS;
-			};
-			name = Debug;
-		};
-		C02FBB422D906A78002600E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WebSocketIOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WebSocketIOS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,15 +437,6 @@
 			buildConfigurations = (
 				C02FBB3E2D906A78002600E9 /* Debug */,
 				C02FBB3F2D906A78002600E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C02FBB402D906A78002600E9 /* Build configuration list for PBXNativeTarget "WebSocketIOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C02FBB412D906A78002600E9 /* Debug */,
-				C02FBB422D906A78002600E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
