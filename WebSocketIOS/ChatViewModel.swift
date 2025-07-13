@@ -14,7 +14,6 @@ final class ChatViewModel: NSObject {
         webSocket?.resume()
     }
 
-
     func close() {
         webSocket?.cancel(with: .goingAway, reason: nil)
     }
